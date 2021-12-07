@@ -1,0 +1,198 @@
+html{
+    background-color: rgb(184, 224, 211);
+
+ }
+  input{
+    width: 90%;
+    height: 6vh;
+  
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:center ;
+    margin-bottom: 1rem;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    border-style:none;
+    border-radius: 1vh;
+   
+}  
+ /* input[type="checkbox" i]{
+    width: 20%;
+    height: 2vh;
+    right: 50%;
+    flex-direction: row;
+}    */
+button{
+    width:35%;
+    height: 5vh;
+    border-color: green;
+    border-radius: 0.5vh;
+    font-size: 2vh;
+   margin-left:55%;
+
+}
+.button1{
+    width:40%;
+    height: 5vh;
+    border-color: green;
+    border-radius: 0.5vh;
+    font-size: 2vh;
+   margin-left:50%;
+}
+div.checkbox{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#remember2{
+margin: 1%;
+width: 6%;
+margin-right: 80%;
+display: flex;
+
+}
+#remember3{
+    margin: 3%;
+    width:6%;
+    margin-right: 80%;
+    display: flex;
+    
+    }
+
+label { 
+    color:#147587; 
+    font-weight:bold;
+     cursor:pointer; 
+     user-select:none;
+     margin-top: -15%;
+    margin-bottom: 5%;
+     margin-left:10% ; 
+     display: flex;
+     
+
+    }
+
+#section{max-width:100%;
+    height:auto;
+    clear:both}
+
+.col{
+    width:100%;
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size:2.5vh;
+    
+}
+
+
+.col:first-child{
+    margin-left:18%
+    
+}
+.un{
+    
+    float:left;
+    width:30%;
+    
+    }
+.deux{
+    float:right;
+    width:30%;
+    margin-right: 18%;
+    }
+
+
+ 
+    
+/* #bouton input {display:inline-block; background:#147587; border:0; color:#F1F1F1; padding:.5em 1em; margin-top:1em; cursor:pointer; transition:background .5s;   */
+
+@media screen and (max-width: 900px)
+{
+    input{
+        width:100%;
+        height: 6vh;
+        margin-left:auto;
+        align-items: flex-start;
+        text-align:center ;
+        margin-bottom: 1rem;
+        font-size: 100%;
+        color: rgb(0, 0, 0);
+        border-style:none;
+        border-radius: 1vh;
+       
+    } 
+    /* input[type="checkbox" i]{
+        width: 20%;
+        height: 2vh;   
+        flex-direction: row;
+    
+    } */
+    div.checkbox{
+        width:100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #remember2{
+        margin: 1%;
+        width: 5%;
+        margin-right: 100%;
+
+        
+        }
+    #remember3{
+            margin: 1%;
+            width: 5%;
+          
+            
+            }
+    
+    
+     label { 
+        color:#147587; 
+        font-weight:bold;
+        cursor:pointer; 
+        user-select:none;
+        margin-bottom:5%;
+        margin-left: 10%;
+        margin-top:-9%;
+        }
+
+    button{
+        width:30%;
+        height: 5vh;
+        border-color: green;
+        border-radius: 0.5vh;
+        font-size: 2vh;
+       margin-left:auto;
+
+    
+    }
+    .button1{
+        width:30%;
+        height: 5vh;
+        border-color: green;
+        border-radius: 0.5vh;
+        font-size: 2vh;
+       margin-left:68%;
+    }
+    
+    #section{max-width:100%;
+        height:auto;
+        clear:both;
+    }
+    
+    .col{
+        width:50%;
+        font-size:2.5vh;
+        margin-left:50%;
+        margin-right: 33%;
+       
+        
+    }
+    
+ 
+        
+   
+    
+}
